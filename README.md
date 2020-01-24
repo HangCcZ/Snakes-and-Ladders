@@ -2,7 +2,7 @@
 This is my final project of my C++ programming course. No other directions were given beside the expected result of the game (Snakes and Ladders https://www.youtube.com/watch?v=GTEsyY6r7w0). I use SFML library to do all the graphics display therefore the user have to install the library in order to run the code properly.
 
 # Object Oriented Programming - Class Definitions:
-4 classes total including, player, ladder, snake and blackhole(add on the original game, user cannot escape blackhole unless they draw a 6).
+4 classes total including, player, ladder, snake and blackhole(add on the original game. All player start within blackhole, player cannot escape blackhole unless they draw a 6).
 - Player class hold the player’s position and its location on the screen. Player class also have all the functions needed to get and update the player’s information.
 - Ladder and snake class both have it’s starting position and ending position.
 - Blackhole class only holds the black hole’s position on the board.
